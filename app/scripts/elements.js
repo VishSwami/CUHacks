@@ -89,4 +89,40 @@ var elements = module.exports = [
     shells: 3,
     'electro-negativity': 'high'
   }
+  {
+    name: 'Copper',
+    abbr: 'Cu',
+    mass: 63.55,
+    protons: 29,
+    group: 'metal',
+    shells: 4,
+    'electro-negativity': 'medium'
+  }
+  {
+    name: 'Zinc',
+    abbr: 'Zn',
+    mass: 65.38,
+    protons: 30,
+    group: 'metal',
+    shells: 4,
+    'electro-negativity': 'medium'
+  }
+  {
+    name: 'Aluminum',
+    abbr: 'Al',
+    mass: 26.98,
+    protons: 13,
+    group: 'metal',
+    shells: 3,
+    'electro-negativity': 'high'
+  }
+  {
+    name: 'Mercury',
+    abbr: 'Hg',
+    mass: 200.59,
+    protons: 80,
+    group: 'nonmetal',
+    shells: 6,
+    'electro-negativity': 'high'
+  }
 ]
