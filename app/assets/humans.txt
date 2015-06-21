@@ -1,0 +1,9 @@
+# humanstxt.org
+# The humans + technology responsible file
+
+# TEAM
+
+    David Liu
+    Vishal Swaminathan
+    Mrudhun Arivalagan
+    Max Chen
