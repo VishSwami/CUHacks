@@ -83,7 +83,7 @@ var elements = module.exports = [
   {
     name: 'Chlorine',
     abbr: 'Cl',
-    mass: 335.45,
+    mass: 35.45,
     protons: 17,
     group: 'nonmetal',
     shells: 3,
