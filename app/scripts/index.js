@@ -1,1 +1,3 @@
-console.log('hello world')
+let AppView = require('./views/app-view')
+
+new AppView()

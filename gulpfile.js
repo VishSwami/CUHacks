@@ -53,7 +53,9 @@ function scripts () {
   }
   var b = args.production ? browserify(opts) : watchify(browserify(opts), watchify.args)
   if (!args.production) b.on('update', bundle)
-  b.transform('babelify')
+  b
+    .transform('babelify')
+    .transform('jadeify')
   function bundle () {
     return b
       .bundle()

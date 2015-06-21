@@ -40,6 +40,14 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.2.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "backbone": "^1.2.1",
+    "backbone.localstorage": "^1.1.16",
+    "jadeify": "^4.3.0",
+    "jquery": "^2.1.4",
+    "lodash": "^3.9.3",
+    "to-camel-case": "^0.2.1",
+    "to-slug": "0.0.0"
+  },
   "private": true
 }
