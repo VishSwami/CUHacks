@@ -1,17 +1,17 @@
-playGame();
+playGame(elements);
 var elements = [["Hydrogen", "H", 1.01, 1, "nonmetal", 1, 0, 0],
 				["Oxygen", "O", 16.00, 8, "nonmetal", 2, 2, 0], 
 				["Carbon", "C", 12.01, 6, "nonmetal", 2, 2, 0], 
 				["Nitrogen", "N", 1.01, 7, "nonmetal", 2, 2, 0], 
 				["Helium", "He", 1.01, 2, "nonmetal", 1, 0, 0]];
 var elems;
-var playGame = function(){
+var playGame = function(elements){
 	elems = [new Elem(elements[0]), new Elem(elements[1]), new Elem(elements[2]), new Elem(elements[3]), new Elem(elements[4])];
 	var numqs = prompt("How many times do you want to be quizzed?");
 	var maxScore = numqs * 3;
 	var score = 0;
 	while(numqs-- > 0){
-		score += quiz(Math.floor(Math.random() * 5));
+		score += quiz(Math.floor(Math.random() * elements.length));
 	}
 	console.log("You earned a total score of " + score + " out of a max score of " + maxScore);
 }
