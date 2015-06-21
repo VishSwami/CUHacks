@@ -1,14 +1,12 @@
-.chemical-element
+.chemical-element-info
+  .chemical-element-name= name
+  .chemical-element-abbr= abbr
+  .chemical-element-mass= mass
 
-  .chemical-element-info
-    .chemical-element-name= name
-    .chemical-element-abbr= abbr
-    .chemical-element-mass= mass
-
-  .chemical-element-question
-    .chemical-element-property= property
-    .chemical-element-choices
-      each option in options
-        label
-          input(type='radio', value=option)
-          = option
+.chemical-element-question
+  .chemical-element-property= property
+  .chemical-element-choices
+    each option in options
+      label
+        input(type='radio', value=option)
+        = option

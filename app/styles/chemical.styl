@@ -1,0 +1,27 @@
+.chemical-element
+  font-size 2rem
+  text-align center
+  max-width 640px
+  margin auto
+
+.chemical-element-abbr
+  font-size 5rem
+
+.chemical-element-property
+  margin-top 10px;
+  padding-top 10px;
+  border-top 1px solid light-gray
+  &::after
+    content '?'
+
+.chemical-element-question label
+  background-color #214278
+  color light-gray
+  padding 5px 10px
+  margin 5px
+  &:hover
+    color white
+    cursor pointer
+
+.chemical-element-question input
+  display none

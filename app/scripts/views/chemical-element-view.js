@@ -9,6 +9,7 @@ let toCamel = require('to-camel-case')
 let ChemicalElementView = module.exports = Backbone.View.extend({
 
   tagName: 'div',
+  className: 'chemical-element',
   template,
 
   events: {
