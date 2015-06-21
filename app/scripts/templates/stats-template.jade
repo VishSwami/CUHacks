@@ -1,3 +1,19 @@
 .statistics
   h3 Score
   p #{correct}/#{max}
+
+if table && table.length
+  table.results-table
+    thead
+      tr
+        th Element
+        th Question
+        th Your Answer
+        th Correct Answer
+    tbody
+      each row in table
+        tr(class=row.correct ? 'correct' : 'failure')
+          td= row.name
+          td= row.question
+          td= row.inputAns
+          td= row.correctAns

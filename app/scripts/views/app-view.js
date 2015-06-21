@@ -32,7 +32,8 @@ let AppView = module.exports = Backbone.View.extend({
   showStats () {
     $(this.el).append(this.statsTemplate({
       correct: ChemicalElementsCollection.getCorrect().length,
-      max: ChemicalElementsCollection.answered().length
+      max: ChemicalElementsCollection.answered().length,
+      table: ChemicalElementsCollection.getResults()
     }))
   }
 

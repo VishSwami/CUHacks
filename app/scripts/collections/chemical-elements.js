@@ -53,6 +53,18 @@ var ChemicalElementList = Backbone.Collection.extend({
     return this.filter(function (element) { return element.get('correct') })
   },
 
+  getResults () {
+    return this.answered().map(function (element) {
+      return {
+        name: element.get('name'),
+        question: element.get('question'),
+        correct: element.get('correct'),
+        correctAns: element.get(element.get('question')).toString(),
+        inputAns: element.get('input').toString()
+      }
+    })
+  },
+
   comparator: 'order'
 
 
