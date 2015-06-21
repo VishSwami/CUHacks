@@ -43,7 +43,7 @@ var elements = module.exports = [
     group: 'nonmetal',
     shells: 2,
     'electro-negativity': 'high'
-  }
+  },
   {
     name: 'Magnesium',
     abbr: 'Mg',
@@ -52,7 +52,7 @@ var elements = module.exports = [
     group: 'nonmetal',
     shells: 2,
     'electro-negativity': 'low'
-  }
+  },
   {
     name: 'Potassium',
     abbr: 'K',
@@ -61,7 +61,7 @@ var elements = module.exports = [
     group: 'nonmetal',
     shells: 4,
     'electro-negativity': 'low'
-  }
+  },
   {
     name: 'Sodium',
     abbr: 'Na',
@@ -70,7 +70,7 @@ var elements = module.exports = [
     group: 'nonmetal',
     shells: 3,
     'electro-negativity': 'low'
-  }
+  },
   {
     name: 'Iron',
     abbr: 'Fe',
@@ -79,7 +79,7 @@ var elements = module.exports = [
     group: 'metal',
     shells: 4,
     'electro-negativity': 'medium'
-  }
+  },
   {
     name: 'Chlorine',
     abbr: 'Cl',
@@ -88,7 +88,7 @@ var elements = module.exports = [
     group: 'nonmetal',
     shells: 3,
     'electro-negativity': 'high'
-  }
+  },
   {
     name: 'Copper',
     abbr: 'Cu',
@@ -97,7 +97,7 @@ var elements = module.exports = [
     group: 'metal',
     shells: 4,
     'electro-negativity': 'medium'
-  }
+  },
   {
     name: 'Zinc',
     abbr: 'Zn',
@@ -106,7 +106,7 @@ var elements = module.exports = [
     group: 'metal',
     shells: 4,
     'electro-negativity': 'medium'
-  }
+  },
   {
     name: 'Aluminum',
     abbr: 'Al',
@@ -115,7 +115,7 @@ var elements = module.exports = [
     group: 'metal',
     shells: 3,
     'electro-negativity': 'high'
-  }
+  },
   {
     name: 'Mercury',
     abbr: 'Hg',
