@@ -1,0 +1,22 @@
+{
+  "name": "cuhacks",
+  "version": "0.0.0",
+  "description": "we suck at coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishSwami/CUHacks.git"
+  },
+  "keywords": [
+    "hackathon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VishSwami/CUHacks/issues"
+  },
+  "homepage": "https://github.com/VishSwami/CUHacks#readme"
+}
