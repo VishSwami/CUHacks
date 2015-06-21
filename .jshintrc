@@ -1,0 +1,12 @@
+{
+    "asi": true,
+    "node": true,
+    "bitwise": false,
+    "curly": false,
+    "eqeqeq": true,
+    "eqnull": true,
+    "latedef": "nofunc",
+    "noarg": true,
+    "undef": true,
+    "strict": false
+}
